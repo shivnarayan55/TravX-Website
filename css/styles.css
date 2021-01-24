@@ -1,0 +1,179 @@
+/*Body*/
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+/*Title*/
+#title {
+  background-color: #487e95;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  height: 50px;
+  font-size: 2.5rem;
+}
+
+.description {
+  font-family: 'Coda Caption', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  padding-bottom: 35px;
+  font-size: 3.2rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.iphone-mockup {
+  margin-top: 50px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 15%;
+  width: 55%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+
+/*Features*/
+#features {
+  padding-top: 80px;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 4%;
+}
+
+h3 {
+  font-family: 'Montserrat-bold';
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.story {
+  color: #487e95;
+  padding-bottom: 20px;
+}
+
+.story:hover {
+  color: #8f8f8f;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*Testimonials*/
+#testimonials {
+  background-color: #23689b;
+  padding-top: 100px;
+}
+
+.testimonial-text {
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  width: 60%;
+  margin: auto;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin-top: 25px;
+}
+
+.test-name {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+/* Press */
+#press {
+  background-color: #23689b;
+  padding-bottom: 10%;
+  height: 300px;
+}
+
+.company {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 16%;
+  margin: 80px 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.plan-header {
+  font-family: 'Coda Caption', sans-serif;
+  font-weight: bolder;
+  height: 50%;
+  margin-bottom: 50px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA */
+#cta {
+  background-color: #487e95;
+  padding: 7% 15%;
+}
+
+.last-header {
+  font-family: 'Coda Caption', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.bottom-button {
+  margin: 5% 1.7% 1.7% 0;
+}
+
+/* Footer */
+#footer {
+  padding: 7% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Media queries */
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-mockup {
+    position: static;
+    transform: rotate(0);
+  }
+}
